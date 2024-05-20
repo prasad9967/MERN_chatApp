@@ -30,10 +30,7 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'frontend', 'dist', 'index.html'))
 })
 
-// app.get('/',(req,res)=>{
-//     // root route htt://localhost:5000
-//     res.send('Hi there')
-// })
+
 
 
 
